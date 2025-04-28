@@ -1,10 +1,15 @@
 
+import Tea from './tea.jsx'
 
 function App() {
 
 
   return (
-    <h1>Hello World | M B</h1>
+    <div>
+      <Tea/>
+      <h1>to add multiple elements</h1>
+      <p>use div or empty <></> which means fragment</p>
+    </div>
   )
 }
 
